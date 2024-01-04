@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Inter&display=swap" rel="stylesheet">
+    <title>Kalkulator Matematik Segitiga</title>
+</head>
+
+<script src="js/script.js"></script>
+
+<body>
+    
+    <header>Kalkulator Matematik Segitiga
+
+    </header>
+    <main>
+        <br>
+        <div class="container">
+            <img src="asset/segitiga.png" alt="gambar segitiga">
+        </div>
+
+        <strong>Rumus Luas Segitiga yaitu :
+            <p1 style="text-align: center;">L= 1/2 x a x t</p1>
+        </strong>
+        
+        <br>
+        <br>  
+        <section class="section">
+            <label for="tinggi-input">Tinggi Segitiga:</label>
+            <input type="number" id="tinggi1">
+        </section>
+
+        <section class="section">
+            <label for="alas-input">Alas Segitiga:</label>
+            <input type="number" id="alas1">
+        </section>
+
+         <section>
+            <button onclick="hitung1()" id="hitung1">Hitung</button>
+            <button onclick="reset1()">Reset</button>
+        </section>
+
+        <section>
+            <p id="hasil1"></p>   
+        </section>
+        
+        <hr>
+        <br>
+        
+        <div class="container">
+            <img src="asset/segitiga.png" alt="gambar segitiga">
+        </div>
+        <br>
+        <strong id="bagianbawah">Rumus Keliling Segitiga yaitu:
+            <p1>K= Sisi A + Sisi B + Sisi C</p1>
+        </strong>
+        <br>  
+        <div class="city">
+            <label for="sisiA">Sisi A: </label>
+             <input type="number" id="sisiA"><br><br>
+             
+             <label for="sisiB">Sisi B: </label>
+             <input type="number" id="sisiB"><br><br>
+             
+             <label for="sisiC">Sisi C: </label>
+             <input type="number" id="sisiC"><br><br>
+             
+             <button onclick="hitungKeliling()">Hitung Keliling</button>
+             <button onclick="reset2()">Reset</button> 
+             <p id="hasil"></p>
+        </div>
+    </main>
+</body>
+</html>
